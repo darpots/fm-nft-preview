@@ -2,6 +2,10 @@
 	import '$lib/styles.css';
 </script>
 
+<svelte:head>
+	<title>NFT Card</title>
+</svelte:head>
+
 <main>
 	<section>
 		<div class="nft-image">
@@ -105,6 +109,7 @@
 		background-color: var(--cyan);
 		mix-blend-mode: normal;
 		opacity: 1;
+		cursor: pointer;
 	}
 
 	.nft-details h1 {
